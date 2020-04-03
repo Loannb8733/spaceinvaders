@@ -62,4 +62,10 @@ public class SpaceInvaders {
 	private boolean aUnVaisseau() {
 		return null != vaisseau;
 	}
+
+	public void deplacerVaisseauVersLaDroite() {
+		if (vaisseau.abcisse() < longueur-1) {
+			vaisseau.seDeplacerVersLaDroite();
+		}
+	}
 }
