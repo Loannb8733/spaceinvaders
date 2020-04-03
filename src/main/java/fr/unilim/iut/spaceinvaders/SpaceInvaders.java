@@ -26,10 +26,7 @@ public class SpaceInvaders {
 		return (x < longueur && x >= 0) && (y < hauteur && y >= 0);
 	}
 
-	@Override
-	public String toString() {
-		return recupererEspaceJeuDansChaineASCII();
-	}
+	
 
 	public String recupererEspaceJeuDansChaineASCII() {
 		StringBuilder espaceDeJeu = new StringBuilder();
