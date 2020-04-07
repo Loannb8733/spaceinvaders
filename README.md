@@ -31,7 +31,7 @@ Si le vaisseau se trouve sur la bordure gauche de l'espace de jeu, le vaisseau d
 Aucune
 
 ### Diagramme de classes 
-![Diagramme de classe semaine 1](images/DiagrammeClasses_s1.png)
+<img width="934" alt="DDC" src="https://user-images.githubusercontent.com/62940980/78724329-7fa17b80-792d-11ea-8668-1a660d0c3f32.PNG">
 
 ### Nuage de mots du projet spaceinvaders (séance n°1)  
 ![Nuage de mots de la semaine 1](images/NuageMots_s1.png)
