@@ -1,5 +1,9 @@
 # Envahisseur de l'espace
- 
+
+- [Semaine n°1](#semaine1)
+- [Semaine n°2](#semaine2)
+- [Glossaire](#glossaire)
+
 ## Semaine n°1 : <a id="semaine1"></a>
 
 ### Sprints et fonctionnalités réalisées 
@@ -34,7 +38,7 @@ Aucune
 <img width="934" alt="DDC" src="https://user-images.githubusercontent.com/62940980/78724329-7fa17b80-792d-11ea-8668-1a660d0c3f32.PNG">
 
 ### Nuage de mots du projet spaceinvaders (séance n°1)  
-<img width="405" alt="ndm" src="https://user-images.githubusercontent.com/62940980/78725889-f4c28000-7930-11ea-9e90-e763d0059847.PNG">
+![NuageMots_Semaine1](https://user-images.githubusercontent.com/62940980/78726150-94800e00-7931-11ea-9e1b-77b5eceacb09.png)
 
 ### Difficultés rencontrées
 Aucune
