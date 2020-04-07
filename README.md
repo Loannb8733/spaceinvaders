@@ -34,9 +34,9 @@ Aucune
 <img width="934" alt="DDC" src="https://user-images.githubusercontent.com/62940980/78724329-7fa17b80-792d-11ea-8668-1a660d0c3f32.PNG">
 
 ### Nuage de mots du projet spaceinvaders (séance n°1)  
-![Nuage de mots de la semaine 1](images/NuageMots_s1.png)
+![Nuage de mot](https://user-images.githubusercontent.com/62940980/78724932-bcba3d80-792e-11ea-9f81-7614aec17ba5.png)
 
-### Difficultés rencontrées 
+### Difficultés rencontrées
 Aucune
 
 ### Remarques diverses
