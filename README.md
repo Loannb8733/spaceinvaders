@@ -1,6 +1,4 @@
-#Envahisseur de l'espace
-
-Semaine n ° 1 # Envahisseur de l'espace
+# Envahisseur de l'espace
 
 - [Semaine n°1](#semaine1)
 - [Semaine n°2](#semaine2)
