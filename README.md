@@ -78,7 +78,7 @@ Il y a 2 cas possible :
 	- le cas où le vaisseau effectue son déplacement en restant dans l'espace de jeu.  
 	- le cas où le vaisseau, étant déjà sur la bordure droite de l'espace jeu, ne peut pas se déplacer au risque de ne plus être dans l'espace de jeu.  
 
-Contraintes:  
+Contraintes:    
 	- Tenir compte de la dimension du vaisseau
 
 - Histoire 4 : Déplacer un vaisseau vers la gauche en tenant compte de sa dimension  
@@ -87,7 +87,7 @@ Comme pour le cas du déplacement à droite il y a 2 cas possible :
 	- le cas où le vaisseau, étant déjà sur la bordure gauche de l'espace jeu, ne peut pas se déplacer au risque de ne plus être dans l'espace de jeu.  
 Création des 2 nouvelles classe Position et Dimension. 
 
-Contrainte :   
+Contrainte :  
 	- Tenir compte de la dimension du vaisseau
 
 - Histoire 5 : Refactoring de la classe Test  
