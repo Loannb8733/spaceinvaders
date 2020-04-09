@@ -19,6 +19,7 @@ Cet espace de jeu est vide
 Un nouveau vaisseau est créé  
 Le vaisseau est positionné aux coordonnées transmises  
 Si un nouveau vaisseau essaye d’être positionné en dehors des limites de l’espace jeu, alors une exception devra être levée.
+
 Contraintes :  
 
 	-  La position souhaité  est transmise  par ses coordonnées (longueur, hauteur, x, y)   
