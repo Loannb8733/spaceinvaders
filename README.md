@@ -11,9 +11,10 @@
 
 #### Fonctionnalité n°1 : Déplacer un vaisseau dans l'espace de jeu (fini)
 
-- Histoire 1 : Créer un espace de jeu
-Un espace de jeu est créé aux dimensions données (2D) 
-Cet espace de jeu est vide /n
+- Histoire 1 : Créer un espace de jeu  
+Un espace de jeu est créé aux dimensions données (2D)   
+Cet espace de jeu est vide 
+
 - Histoire n°2 : Positionner un nouveau vaisseau dans l’espace de jeu  
 Un nouveau vaisseau est créé
 Le vaisseau est positionné aux coordonnées transmises
