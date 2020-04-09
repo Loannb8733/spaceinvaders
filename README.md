@@ -67,27 +67,24 @@ Longueur du vaisseau : 3
 
 - Histoire 2 : Impossibilité de positionner un vaisseau qui déborde de l'espace de jeu  
 Une fois le vaisseau dimensionné faire en sorte qu'il ne dépasse pas les dimensions de l'espace de jeu  
-Si un nouveau vaisseau essaye d’être positionné en dehors des limites de l’espace jeu, alors une exception devra être levée.
-
-Contraintes :   
-	- La position souhaité  est transmise  par ses coordonnées (longueur, hauteur, x, y)
-	- Le coin superieur gauche de l'espace jeu (point en haut à gauche à coordonnées (0,0)
+Si un nouveau vaisseau essaye d’être positionné en dehors des limites de l’espace jeu, alors une exception devra être levée.  
+Contraintes:  
+	- La position souhaité  est transmise  par ses coordonnées (longueur, hauteur, x, y)  
+	- Le coin superieur gauche de l'espace jeu (point en haut à gauche à coordonnées (0,0)  
 	- La taille du vaisseau est de 3 de longueur et de 2 de hauteur
 
 - Histoire 3 : Déplacer un vaisseau vers la droite en tenant compte de sa dimension  
-Il y a 2 cas possible :   
+Il y a 2 cas possible :  
 	- le cas où le vaisseau effectue son déplacement en restant dans l'espace de jeu.  
-	- le cas où le vaisseau, étant déjà sur la bordure droite de l'espace jeu, ne peut pas se déplacer au risque de ne plus être dans l'espace de jeu.
-
+	- le cas où le vaisseau, étant déjà sur la bordure droite de l'espace jeu, ne peut pas se déplacer au risque de ne plus être dans l'espace de jeu.  
 Contraintes:  
-	- Tenir compte de la dimension du vaissea
+	- Tenir compte de la dimension du vaisseau
 
 - Histoire 4 : Déplacer un vaisseau vers la gauche en tenant compte de sa dimension  
-Comme pour le cas du déplacement à droite il y a 2 cas possible :   
+Comme pour le cas du déplacement à droite il y a 2 cas possible :  
 	- le cas où le vaisseau effectue son déplacement en restant dans l'espace de jeu.  
 	- le cas où le vaisseau, étant déjà sur la bordure gauche de l'espace jeu, ne peut pas se déplacer au risque de ne plus être dans l'espace de jeu.  
-Création des 2 nouvelles classe Position et Dimension.
-
+Création des 2 nouvelles classe Position et Dimension.  
 Contrainte :   
 	- Tenir compte de la dimension du vaisseau
 
