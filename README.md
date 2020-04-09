@@ -11,12 +11,11 @@
 
 #### Fonctionnalité n°1 : Déplacer un vaisseau dans l'espace de jeu (fini)
 
-* Une puce
-*Histoire 1 : Créer un espace de        
+* Histoire n° 1 : Créer un espace de jeu  
 Un espace de jeu est créé aux dimensions données (2D)   
 Cet espace de jeu est vide 
 
-- Histoire n°2 : Positionner un nouveau vaisseau dans l’espace de jeu  
+* Histoire n° 2: Positionner un nouveau vaisseau dans l'espace de jeu   
 Un nouveau vaisseau est créé  
 Le vaisseau est positionné aux coordonnées transmises  
 Si un nouveau vaisseau essaye d’être positionné en dehors des limites de l’espace jeu, alors une exception devra être levée.  
@@ -25,11 +24,11 @@ Contraintes :
 	- Le coin superieur gauche de l'espace jeu (point en haut à gauche) à coordonnées (0,0)   
 	- La taille du vaisseau est réduite dà son minimum pour le moment (1)
 
-- Histoire n°3 : Déplacer le vaisseau vers la droite dans l’espace de jeu  
+* Histoire n° 3: Déplacer le vaisseau vers la droite dans l'espace de jeu  
 Le vaisseau se déplace d'un pas vers la droite  
 Si le vaisseau se trouve sur la bordure droite de l'espace de jeu, le vaisseau doit rester immobile (aucun déplacement, aucune exception levée : le vaisseau reste juste à sa position actuelle).
 
-- Histoire n°4 : Déplacer le vaisseau vers la gauche dans l'espace de jeu   
+* Histoire n° 4: Déplacer le vaisseau vers la gauche dans l'espace de jeu  
 Le vaisseau se déplace d'un pas vers la gauche  
 Si le vaisseau se trouve sur la bordure gauche de l'espace de jeu, le vaisseau doit rester immobile (aucun déplacement, aucune exception levée : le vaisseau reste juste à sa position actuelle).
 
@@ -61,12 +60,12 @@ Pour pouvoir, mettre en place les tests, il a été nécessaire d’ajouter une 
 
 #### Fonctionnalité n°2 : Dimensionner le vaiseau (fini)
 
-- Histoire 1 : Positionner un nouveau vaisseau avec une dimension donnée  
+* Histoire n° 1: Positionner un vaisseau avec une dimension donnée    
 Posionner le vaisseau créé aux dimensions 2D données dans l'espace de jeu  
 Hauteur du vaisseau : 2  
 Longueur du vaisseau : 3
 
-- Histoire 2 : Impossibilité de positionner un vaisseau qui déborde de l'espace de jeu  
+* Histoire n° 2: Impossibilité de positionner une vaisseau qui déborde de l'espace de jeu  
 Une fois le vaisseau dimensionné faire en sorte qu'il ne dépasse pas les dimensions de l'espace de jeu  
 Si un nouveau vaisseau essaye d’être positionné en dehors des limites de l’espace jeu, alors une exception devra être levée.  
 Contraintes:  
@@ -75,20 +74,19 @@ Contraintes:
 	- La taille du vaisseau est de 3 de longueur et de 2 de hauteur
 
 - Histoire 3 : Déplacer un vaisseau vers la droite en tenant compte de sa dimension  
-Il y a 2 cas possible :  
+Contrainte  
+	--> Tenir compte de la dimension du vaisseau  
+Il y a 2 cas possible   
 	- le cas où le vaisseau effectue son déplacement en restant dans l'espace de jeu.  
-	- le cas où le vaisseau, étant déjà sur la bordure droite de l'espace jeu, ne peut pas se déplacer au risque de ne plus être dans l'espace de jeu.    
-Contrainte:        
-	- Tenir compte de la dimension du vaisseau
+	- le cas où le vaisseau, étant déjà sur la bordure droite de l'espace jeu, ne peut pas se déplacer au risque de ne plus être dans l'espace de jeu. 
 
 - Histoire 4 : Déplacer un vaisseau vers la gauche en tenant compte de sa dimension  
+Contrainte  
+	--> Tenir compte de la dimension du vaisseau  
 Comme pour le cas du déplacement à droite il y a 2 cas possible :  
 	- le cas où le vaisseau effectue son déplacement en restant dans l'espace de jeu.  
 	- le cas où le vaisseau, étant déjà sur la bordure gauche de l'espace jeu, ne peut pas se déplacer au risque de ne plus être dans l'espace de jeu.  
-Création des 2 nouvelles classe Position et Dimension. 
-  
-Contrainte :   
-	- Tenir compte de la dimension du vaisseau
+Création des 2 nouvelles classe Position et  Dimension
 
 - Histoire 5 : Refactoring de la classe Test  
 Remplacement de l'écriture (longueur, hauteur, x, y) en (new Dimension(3,2),new Position(7,9)) lors de l'appel à la méthode positionnerUnNouveauVaisseau de la classe spaceInvaders  
