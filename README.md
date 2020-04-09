@@ -18,11 +18,9 @@ Cet espace de jeu est vide
 - Histoire n°2 : Positionner un nouveau vaisseau dans l’espace de jeu  
 Un nouveau vaisseau est créé  
 Le vaisseau est positionné aux coordonnées transmises  
-Si un nouveau vaisseau essaye d’être positionné en dehors des limites de l’espace jeu, alors une exception devra être levée.
-
+Si un nouveau vaisseau essaye d’être positionné en dehors des limites de l’espace jeu, alors une exception devra être levée.  
 Contraintes :  
-
-	-  La position souhaité  est transmise  par ses coordonnées (longueur, hauteur, x, y)   
+	-  La position souhaité  est transmise  par ses coordonnées (longueur, hauteur, x, y)  
 	- Le coin superieur gauche de l'espace jeu (point en haut à gauche) à coordonnées (0,0)   
 	- La taille du vaisseau est réduite dà son minimum pour le moment (1)
 
