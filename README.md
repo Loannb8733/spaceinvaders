@@ -2,6 +2,7 @@
 
 - [Semaine n°1](#semaine1)
 - [Semaine n°2](#semaine2)
+- [Semaine n°3](#semaine3)
 - [Glossaire](#glossaire)
 
 ## Semaine n°1 : <a id="semaine1"></a>
