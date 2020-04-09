@@ -75,12 +75,13 @@ La taille du vaisseau est de 3 de longueur et de 2 de hauteur
 - Histoire 3 : Déplacer un vaisseau vers la droite en tenant compte de sa dimension
 
 Il y a 2 cas possible : 
+
 	- le cas où le vaisseau effectue son déplacement en restant dans l'espace de jeu.
 	- le cas où le vaisseau, étant déjà sur la bordure droite de l'espace jeu, ne peut pas se déplacer au risque de ne plus être dans l'espace de jeu.
 
 Contrainte :
 
-	- Tenir compte de la dimension du vaisseau
+	- Tenir compte de la dimension du vaissea
 
 - Histoire 4 : Déplacer un vaisseau vers la gauche en tenant compte de sa dimension
 
