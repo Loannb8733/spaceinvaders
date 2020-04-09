@@ -99,7 +99,7 @@ Ajout d'un constructeur dans la classe Vaisseau.
 
 ### Fonctionnalité en cours d’implémentation : 
 
-Fonctionnalité n°3 : choix de la vitesse du vaisseau
+Mise en place de l'interface graphique
 
 ### Diagramme de classes 
 
@@ -113,7 +113,7 @@ Fonctionnalité n°3 : choix de la vitesse du vaisseau
 
 Aucune
 
-## Semaine n°3  < a id="semaine3"></a>
+## Semaine n°3  <a id="semaine3"></a>
 
 ### Parenthèse dans le projet avant la fonctionnalité n°3  : Mise en place d'une interface graphique
 
