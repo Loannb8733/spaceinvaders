@@ -71,10 +71,9 @@ Une fois le vaisseau dimensionné faire en sorte qu'il ne dépasse pas les dimen
 Si un nouveau vaisseau essaye d’être positionné en dehors des limites de l’espace jeu, alors une exception devra être levée.
 
 Contraintes :
-
-                - La position souhaitée est transmise par ses coordonnées (longueur, hauteur, x, y)  
-                - Le coin supérieur gauche de l’espace jeu (point en haut à gauche) a pour coordonnées (0,0)
-                - La taille du vaisseau est de 3 de longueur et de 2 de hauteur 
+	- La position souhaité  est transmise  par ses coordonnées (longueur, hauteur, x, y)
+	- Le coin superieur gauche de l'espace jeu (point en haut à gauche à coordonnées (0,0)
+	- La taille du vaisseau est de 3 de longueur et de 2 de hauteur
 
 - Histoire 3 : Déplacer un vaisseau vers la droite en tenant compte de sa dimension
 
