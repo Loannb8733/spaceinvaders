@@ -19,10 +19,10 @@ Cet espace de jeu est vide
 Un nouveau vaisseau est créé  
 Le vaisseau est positionné aux coordonnées transmises  
 Si un nouveau vaisseau essaye d’être positionné en dehors des limites de l’espace jeu, alors une exception devra être levée.
-
 Contraintes :  
-	- La position souhaité  est transmise  par ses coordonnées (longueur, hauteur, x, y)  
-	- Le coin superieur gauche de l'espace jeu (point en haut à gauche) à coordonnées (0,0)  
+
+	-  La position souhaité  est transmise  par ses coordonnées (longueur, hauteur, x, y)   
+	- Le coin superieur gauche de l'espace jeu (point en haut à gauche) à coordonnées (0,0)   
 	- La taille du vaisseau est réduite dà son minimum pour le moment (1)
 
 - Histoire n°3 : Déplacer le vaisseau vers la droite dans l’espace de jeu  
@@ -80,7 +80,7 @@ Il y a 2 cas possible :
 	- le cas où le vaisseau effectue son déplacement en restant dans l'espace de jeu.  
 	- le cas où le vaisseau, étant déjà sur la bordure droite de l'espace jeu, ne peut pas se déplacer au risque de ne plus être dans l'espace de jeu.
 
-Contrainte :   
+Contraintes:  
 	- Tenir compte de la dimension du vaissea
 
 - Histoire 4 : Déplacer un vaisseau vers la gauche en tenant compte de sa dimension  
