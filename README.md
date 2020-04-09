@@ -103,16 +103,40 @@ Fonctionnalité n°3 : choix de la vitesse du vaisseau
 
 ### Diagramme de classes 
 
-![Diagrammes de classes de la semaine 1](images/DDC_S2.png)
+![Diagrammes de classes de la semaine 2](images/DDC_S2.png)
 
 ### Nuage de mots du projet spaceinvaders (séance n°1)
 
-![Nuage de mots de la semaine1](images/NDM_S2.png)
+![Nuage de mots de la semaine2](images/NDM_S2.png)
 
 ### Difficultés rencontrées
 
 Aucune
 
+## Semaine n°3  < a id="semaine3"></a>
+
+### Parenthèse dans le projet avant la fonctionnalité n°3  : Mise en place d'une interface graphique
+
+####  Spike : Prise en main et intégration d'un moteur graphique
+
+OBJECTIF : L'objectif est d'intégrer le moteur graphique au projet Space Invaders et de comprendre le fonctionnement de ce dernier
+
+* Histoire 1 : Récupérer l'API du moteur graphique dans un projet test  
+Ouverture d'une fenetre ou on retrouve une balle bleu  
+Découvrir les touches pour savoir comment déplacer la balle, possibilité de la déplacer à droite et à gauche avec les touches D et Q.  
+ 
+* Histoire 2 : Prendre connaissance du code et comprendre le fonctionnement du moteur graphique.  
+Génération du diagramme de classe du dossier testmoteurgraphique  
+
+![Diagrammes de classe de la semaine 3](images/DDC_S3.png)
+
+* Histoire 3 : Intégrer le moteur graphique au jeu Space Invaders  
+Mise en place des classes du moteur graphique nécessaire dans notre projet  
+
+
+* Histoire 4 : Tester la bonne intégration du moteur graphique (Et bien, jouons maintenant !)
+
+* Histoire 5 : Améliorer l'eXperience Utilisateur
 -------------
 
 ## Glossaire <a id="glossaire"></a>
