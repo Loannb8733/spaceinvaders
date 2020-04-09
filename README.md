@@ -1,9 +1,9 @@
 # Envahisseur de l'espace
 
-*[Semaine n°1] (# semaine1)
-* [Semaine n°2] (# semaine 2)
-* [Semaine n°3] (# semaine 3)
-* [Glossaire] (#glossaire)
+- [Semaine n°1](#semaine1)
+- [Semaine n°2](#semaine2)
+- [Semaine n°3](#semaine3)
+- [Glossaire](#glossaire)
 
 ## Semaine n°1 : <a id="semaine1"></a>
 
@@ -11,7 +11,8 @@
 
 #### Fonctionnalité n°1 : Déplacer un vaisseau dans l'espace de jeu (fini)
 
-- Histoire 1 : Créer un espace de jeu  
+* Une puce
+*Histoire 1 : Créer un espace de        
 Un espace de jeu est créé aux dimensions données (2D)   
 Cet espace de jeu est vide 
 
