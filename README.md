@@ -103,11 +103,11 @@ Mise en place de l'interface graphique
 
 ### Diagramme de classes 
 
-![Diagrammes de classes de la semaine 2](images/DDC_S2.png)
+![Diagrammes de classes de la semaine 2](images/DDC_S2.PNG)
 
 ### Nuage de mots du projet spaceinvaders (séance n°1)
 
-![Nuage de mots de la semaine2](images/NDM_S2.png)
+![Nuage de mots de la semaine2](images/NDM_S2.PNG)
 
 ### Difficultés rencontrées
 
