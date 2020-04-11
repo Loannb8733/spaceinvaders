@@ -128,7 +128,7 @@ Découvrir les touches pour savoir comment déplacer la balle, possibilité de l
 * Histoire 2 : Prendre connaissance du code et comprendre le fonctionnement du moteur graphique.  
 Génération du diagramme de classe du dossier testmoteurgraphique  
 
-![Diagrammes de classe de la semaine 3](images/DDC_S3.png)
+![Diagrammes de classe de la semaine 3](images/DDC_TD_S3.png)
 
 * Histoire 3 : Intégrer le moteur graphique au jeu Space Invaders  
 Mise en place des classes du moteur graphique nécessaire dans notre projet  
