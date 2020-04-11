@@ -107,7 +107,7 @@ Mise en place de l'interface graphique
 
 ### Nuage de mots du projet spaceinvaders (séance n°1)
 
-![Nuage de mots de la semaine2](images/NDM_S2.PNG)
+![Nuage de mots de la semaine2](images/NDMM_S2.PNG)
 
 ### Difficultés rencontrées
 
