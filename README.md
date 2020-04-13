@@ -133,8 +133,18 @@ Génération du diagramme de classe du dossier testmoteurgraphique
 * Histoire 3 : Intégrer le moteur graphique au jeu Space Invaders  
 Mise en place des classes du moteur graphique nécessaire dans notre projet  
 
-
 * Histoire 4 : Tester la bonne intégration du moteur graphique (Et bien, jouons maintenant !)
+
+	- Position de départ  
+	![Vaisseau à la position initiale](images/VAI_CENTRE.PNG)  
+	- Test de déplacement vers la gauche  
+	![Déplacement du vaisseau vers la gauche](images/VAI_DEP_GAUCHE.PNG)  
+	- Test de déplacement vers la droite  
+	![Déplacement du vaisseau vers la droite](images/VAI_DEP_DROITE.PNG)  
+	- Test de déplacement vers la gauche max  
+	![Déplacement maximal du vaisseau vers la gauche](images/VAI_DEP_MAX_GAUCHE.PNG)  
+	- Test de déplacement vers la droite max  
+	![Déplacement maximal du vaisseau vers la droite](images/VAI_DEP_MAX_DROITE.PNG)
 
 * Histoire 5 : Améliorer l'eXperience Utilisateur
 -------------
