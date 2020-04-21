@@ -151,7 +151,7 @@ Mise en place des classes du moteur graphique nécessaire dans notre projet
 * Histoire 5 : Améliorer l'eXperience Utilisateur
 -------------
 
-## Semaine n°4  <a id="semaine3"></a>
+## Semaine n°4  <a id="semaine4"></a>
 
 ### Sprints et fonctionnalités réalisées 
 
