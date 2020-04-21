@@ -172,14 +172,17 @@ Pour pouvoir jouer il faut maintenant faire en sorte que le moteur graphique fas
 ### Fonctionnalité en cours d'implementation:
 
 ### Diagramme de classes 
-![Diagrammes de classe de la semaine 4] (images/ DDC_S4.PNG)
+![Diagrammes de classe de la semaine 4] (images/DDC_S4.png)
+
 
 ### Nuage de mots du projet spaceinvaders (séance n°4)
-![Nuage de mots de la semaine 4] (images / NDM_S4.PNG)
+![Nuage de mots de la semaine 4] (images/NDM_S4.png)
 
-### Difficultés rencontrées
+
+### Difficultés rencontrées:
 
 Aucune
+
 -------------
 
 ## Glossaire <a id="glossaire"></a>
