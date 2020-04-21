@@ -3,6 +3,7 @@
 - [Semaine n°1](#semaine1)
 - [Semaine n°2](#semaine2)
 - [Semaine n°3](#semaine3)
+- [Semaine n°4] (# semaine4)
 - [Glossaire](#glossaire)
 
 ## Semaine n°1 : <a id="semaine1"></a>
@@ -105,7 +106,7 @@ Mise en place de l'interface graphique
 
 ![Diagrammes de classes de la semaine 2](images/DDC_S2.PNG)
 
-### Nuage de mots du projet spaceinvaders (séance n°1)
+### Nuage de mots du projet spaceinvaders (séance n°2)
 
 ![Nuage de mots de la semaine2](images/NDMM_S2.PNG)
 
@@ -146,7 +147,39 @@ Mise en place des classes du moteur graphique nécessaire dans notre projet
 	- Test de déplacement vers la droite max  
 	![Déplacement maximal du vaisseau vers la droite](images/VAI_DEP_MAX_DROITE.PNG)
 
+
 * Histoire 5 : Améliorer l'eXperience Utilisateur
+-------------
+
+## Semaine n°4  <a id="semaine3"></a>
+
+### Sprints et fonctionnalités réalisées 
+
+#### Fonctionnalité n°3 : Choisir la vitesse du vaisseau 
+
+* Histoire 1: Ajouter la vitesse au Vaisseau sans régression de comportement
+on a ajouter un attribut vitesse pour pour mettre cette derniere à une vitesse de 1
+
+* Histoire 2: Régler la vitesse du vaisseau
+La vitesse du vaisseau a été midifié via  un autre constructeur avec une vitesse par defaut de 1
+
+* Histoire 3: Faire en sorte que le déplacement se fasse correctement pour une vitesse quelconque
+Mise en place de nouveaux tests qui verifient  le déplacement vers la droite et la gauche pour une vitesse quelconque pour le cas normal, ou il peut toujours se déplacer et le cas limite ou il n'est plus possible de se déplacer dans la direction demandée
+
+* Histoire 4: Et bien, jouons maintenant  !
+Pour pouvoir jouer il faut maintenant faire en sorte que le moteur graphique fasse bien apparaître un vaisseau avec une vitesse donnée en modifiant la méthode initialiserJeu  de la classe SpaceInvaders et la classe Constante
+
+### Fonctionnalité en cours d'implementation:
+
+### Diagramme de classes 
+![Diagrammes de classe de la semaine 4] (images/ DDC_S4.PNG)
+
+### Nuage de mots du projet spaceinvaders (séance n°4)
+![Nuage de mots de la semaine 4] (images / NDM_S4.PNG)
+
+### Difficultés rencontrées
+
+Aucune
 -------------
 
 ## Glossaire <a id="glossaire"></a>
@@ -157,4 +190,5 @@ Mise en place des classes du moteur graphique nécessaire dans notre projet
 
 * **Missile** :  projectile envoyé à la verticale par le vaisseau vers l'envahisseur dans le but de le détruire.
 
+* ** Vitesse ** : definit la vitesse du vaisseau 
 -------------
