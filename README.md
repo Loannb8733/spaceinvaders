@@ -172,12 +172,10 @@ Pour pouvoir jouer il faut maintenant faire en sorte que le moteur graphique fas
 ### Fonctionnalité en cours d'implementation:
 
 ### Diagramme de classes 
-![Diagrammes de classe de la semaine 4] (images/DDC_S4.png)
-
+![Diagrammes de classe de la semaine 4](images/DDC_S4.png)
 
 ### Nuage de mots du projet spaceinvaders (séance n°4)
-![Nuage de mots de la semaine 4] (images/NDM_S4.png)
-
+![Nuage de mots de la semaine 4](images/NDM_S4.PNG)
 
 ### Difficultés rencontrées:
 
@@ -193,5 +191,6 @@ Aucune
 
 * **Missile** :  projectile envoyé à la verticale par le vaisseau vers l'envahisseur dans le but de le détruire.
 
-* ** Vitesse ** : definit la vitesse du vaisseau 
+* **Vitesse** : definit la vitesse du vaisseau 
+
 -------------
