@@ -4,6 +4,7 @@
 - [Semaine n°2](#semaine2)
 - [Semaine n°3](#semaine3)
 - [Semaine n°4](#semaine4)
+- [Semaine n°5](#semaine5)
 - [Glossaire](#glossaire)
 
 ## Semaine n°1 : <a id="semaine1"></a>
@@ -181,6 +182,46 @@ Pour pouvoir jouer il faut maintenant faire en sorte que le moteur graphique fas
 
 Aucune
 
+## Semaine n°5 <a id="semaine5"></a>
+
+### Sprints et fonctionnalités réalisées 
+
+#### Fonctionnalité n°4 : Tirer un missile (en cours)
+
+* Histoire n° 1 : Quick Design Session : Comprendre ce qu'est un missile et refactorer (diagramme de classes)  
+Faire un héritage entre la classe Vaisseau et la nouvelle classe abstraite Sprite  
+Ajout d'un constructeur à 3 paramètres  
+Appel dans la classe Vaisseau du constructeur de la classe mère (super)  
+Modification du diagramme de classe
+
+* Histoire n° 2 : Quick Design Session : Comprendre ce que signifie tirer un missile depuis le vaisseau (diagramme de séquence)  
+Imagination d'un scénario pour comprendre la fonctionnalité et le diagramme de séquence  
+Le joueur demande au jeu Space Invaders de tirer un missile  
+Le vaisseau tire un missile en calculant d'abord la position du missile de manière, lors du tir, à pouvoir positionner le missile en son milieu puis le vaisseau émet ensuite le missile à la position souhaitée.  
+Le missile se déplace ensuite jusqu'en haut de l'espace jeu de manière autonome et automatique selon une trajectoire verticale.
+
+![Diagrammes de séquence de la semaine 5](images/DDS_S5.png)
+
+* Histoire n° 3 : Tirer un missile en TDD  
+Ecriture d'un premier test de tir (cas normal)  
+Création de la méthode tirerUnMissile dans la classe SpaceInvaders
+
+* Histoire n° 4 : Et bien, jouons maintenant !  
+* Histoire n° 5 : Faire déplacer le missile à la verticale de manière autonome  
+* Histoire n° 6 : Et bien, réglons la vitesse du missile maintenant !  
+
+### Fonctionnalité en cours d'implementation:  
+Fonctionnalité n° 5
+
+### Diagramme de classes 
+![Diagrammes de classe de la semaine 5](images/DDC_S5.png)
+
+### Nuage de mots du projet spaceinvaders (séance n°5)
+![Nuage de mots de la semaine 4](images/NDM_S5.PNG)
+
+### Difficultés rencontrées  
+Le test ne veut pas passer au vert
+
 -------------
 
 ## Glossaire <a id="glossaire"></a>
@@ -191,6 +232,7 @@ Aucune
 
 * **Missile** :  projectile envoyé à la verticale par le vaisseau vers l'envahisseur dans le but de le détruire.
 
-* **Vitesse** : definit la vitesse du vaisseau 
+* **Vitesse** : definit la vitesse du vaisseau
 
+* **Sprite** : désigne un élément graphique qui peut se déplacer sur l'écran. Le fond de l'écran constitue généralement le décor et les sprites sont les personnages et les objets qui se superposent au fond d'écran et qui se déplacent.
 -------------
