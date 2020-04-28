@@ -115,6 +115,8 @@ Mise en place de l'interface graphique
 
 Aucune
 
+-------------
+
 ## Semaine n°3  <a id="semaine3"></a>
 
 ### Parenthèse dans le projet avant la fonctionnalité n°3  : Mise en place d'une interface graphique
@@ -149,7 +151,8 @@ Mise en place des classes du moteur graphique nécessaire dans notre projet
 	![Déplacement maximal du vaisseau vers la droite](images/VAI_DEP_MAX_DROITE.PNG)
 
 
-* Histoire 5 : Améliorer l'eXperience Utilisateur
+* Histoire 5 : Améliorer l'experience Utilisateur
+
 -------------
 
 ## Semaine n°4  <a id="semaine4"></a>
@@ -181,6 +184,8 @@ Pour pouvoir jouer il faut maintenant faire en sorte que le moteur graphique fas
 ### Difficultés rencontrées:
 
 Aucune
+
+-------------
 
 ## Semaine n°5 <a id="semaine5"></a>
 
